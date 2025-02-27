@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+}
+h2 {
+    color: aqua;text-decoration: underline;
+} 
+p {
+    color: bisque;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.special {
+    color: antiquewhite;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
