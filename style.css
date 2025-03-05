@@ -1,17 +1,32 @@
-h1 {
+body{
+    background:#ccc;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    background: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 40px;
+}
+nav ul li{
+     display: inline;
+     padding: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
     color: red;
 }
-h2 {
-    color: aqua;text-decoration: underline;
-} 
-p {
-    color: bisque;
+header h1{
+    text-align: center;
 }
-.uppercase {
-    text-transform: uppercase;
+article header p{
+    font-style: italic;
 }
-.special {
-    color: antiquewhite;
-    text-transform: uppercase;
-    text-decoration: underline;
+main {
+    padding-left: 20px;
 }
