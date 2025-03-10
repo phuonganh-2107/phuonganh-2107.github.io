@@ -1,46 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body{
+    background:#ccc;
+    margin: 0;
+    padding: 0;
 }
-
-.profile-container {
-    background: white;
-    width: 400px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+nav ul{
+    background: pink;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 40px;
 }
-
-.profile-header {
+nav ul li{
+     display: inline;
+     padding: 10px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: burlywood;
+}
+header h1{
     text-align: center;
 }
-
-.profile-header img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
+article header p{
+    font-style: italic;
 }
-
-.profile-header h2 {
-    margin: 10px 0;
+main {
+    padding-left: 20px;
 }
-
-.profile-details, .profile-objectives, .profile-personal {
-    margin-top: 15px;
+.profile-header{
+    text-align: center;
 }
-
-.social-links a {
-    text-decoration: none;
-    margin-right: 10px;
-    color: blue;
-}
-
-h3 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
+.profile-container{
+    background: #fffdd0;
+    width: 1400px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
